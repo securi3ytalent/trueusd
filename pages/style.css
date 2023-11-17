@@ -1,0 +1,115 @@
+
+body{
+    background-image: url(../img/cardano-blockchain-platform.jpg);
+    background-size: cover;
+    font-family: 'Outfit', sans-serif;
+}
+.form-box{
+    width: 500px;
+    display: block;
+    height: 300px;
+    margin-top: -25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.main-box{
+    margin-top: -80px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.main-box h3{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.main-box .user-icon a img{
+    display: block;
+    margin: auto;
+}
+.user-icon a img{
+    width: 120px;
+    margin-top: -10px;
+    z-index: 1;
+}
+.form-box h6 {
+	padding: 42px 0;
+	text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-box form button {
+	background-color: #00AEEF;
+	width: 150px;
+	height: 46px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+.form-box form button:hover{
+    background-color: #06a4de;
+}
+.form-box h6 a{
+    color: #00AEEF;
+    text-decoration: none;
+}
+.box {
+	width: 558px;
+	height: 520px;
+	margin: 100px auto;
+	position: relative;
+	color: #FFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom, #262626, #000);
+}
+.box::before,
+.box::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+.box::before{
+    filter: blur(15px);
+}
+@keyframes animate{
+        0% {
+            background-position: 0 0;
+        }
+        50% {
+            background-position: 400% 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 800px) {
+    .box {
+        width: 317px;
+        height: 560px;
+        margin: 100px auto;
+    }
+    .form-box{
+        width: 300px;
+        height: 300px;
+        
+    }
+}
+
+
+
+
