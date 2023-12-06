@@ -703,9 +703,12 @@ section .container{
     letter-spacing: 0.0225em;
     width: auto;
     margin: 0;
+    color: #00AEEF;
+    text-align: center;
   }
   p {
-    color: #555;
+    color: #00AEEF;
+    text-align: center;
     width: 380px;
     height: 38px;
     margin: 8px 0;
