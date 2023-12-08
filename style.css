@@ -759,11 +759,15 @@ section .container{
   margin-right: 15px;
   margin-left: 10px;
 }
-
+.flex-class .services-box {
+	display: flex;
+	width: 34%;
+}
 .optsita-box1 p{
   opacity: .7;
   width: 90%;
 }
+
 
 /* FDUSD offers  area */
 
@@ -1350,6 +1354,11 @@ a {
   .optsita-box1{
     display: block;
     text-align: center;
+  }
+  .flex-class .services-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
   
 }
