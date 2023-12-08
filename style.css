@@ -1360,6 +1360,9 @@ a {
     flex-direction: column;
     width: 100%;
   }
+  .contact-form .width-row{
+    width: 100% !important;
+  }
   
 }
 /* FDUSD offers  area */
@@ -1375,6 +1378,13 @@ a {
   .work-box{
     display: flex;
     flex-direction: column;
+  }
+  /* footer area */
+  .footer-left {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    text-align: center;
   }
 }
 
